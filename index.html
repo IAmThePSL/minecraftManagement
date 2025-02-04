@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
+    />
+    <title>Minecraft Server Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>Server Controls</h2>
+        <p id="serverStatus">Checking server status...</p>
+        <button id="startServer">Start Server</button>
+        <button id="stopServer">Stop Server</button>
+      </div>
+
+      <div class="card file-manager">
+        <h2>File Manager</h2>
+        <div id="fileList"></div>
+      </div>
+
+      <div class="card player-manager">
+        <h2>Player Manager</h2>
+        <div class="player-item">
+          <span>Player1</span>
+          <button>Ban</button>
+        </div>
+        <div class="player-item">
+          <span>Player2</span>
+          <button>Ban</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

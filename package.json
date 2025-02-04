@@ -1,0 +1,20 @@
+{
+  "name": "minecraftmanager",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "electron": "^34.0.2"
+  },
+  "dependencies": {
+    "nbt": "^0.8.1",
+    "nbt-js": "^0.1.0"
+  }
+}
